@@ -265,7 +265,13 @@ export default function App() {
           }}
         />
         
-        <View style={[styles.quizHeader, { backgroundColor: currentCategory.color }]}>
+	<View style={[styles.quizHeader, { backgroundColor: currentCategory.color }]}>
+          <TouchableOpacity 
+            style={styles.closeButton} 
+            onPress={() => setScreen('home')}
+          >
+            <Text style={styles.closeButtonText}>✕</Text>
+          </TouchableOpacity>
           <Text style={styles.categoryTitle}>
             {currentCategory.emoji} {currentCategory.name}
           </Text>
@@ -345,7 +351,7 @@ export default function App() {
       <SafeAreaView style={styles.container}>
         <StatusBar style="dark" />
         <ScrollView style={styles.resultsScroll} contentContainerStyle={styles.resultsContainer}>
-          <Text style={styles.resultsEmoji}>🦁☀️🇮🇷</Text>
+	  <Text style={styles.resultsEmoji}>🦁☀️</Text>
           <Text style={styles.resultsTitle}>{getTitle()}</Text>
           <Text style={styles.resultsScore}>
             {getTotalScore()} از {getMaxScore()} ({getPercentage()}%)
@@ -570,7 +576,18 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     writingDirection: 'rtl',
   },
-
+    closeButton: {
+    position: 'absolute',
+    top: 16,
+    left: 16,
+    padding: 8,
+    zIndex: 10,
+  },
+  closeButtonText: {
+    color: 'rgba(255,255,255,0.9)',
+    fontSize: 22,
+    fontWeight: '600',
+  },
   // Results Screen
   resultsScroll: {
     flex: 1,
