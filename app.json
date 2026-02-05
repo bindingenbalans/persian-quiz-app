@@ -16,7 +16,9 @@
       "bundleIdentifier": "nl.bindingenbalans.persianquiz",
       "buildNumber": "1",
       "infoPlist": {
-        "CFBundleLocalizations": ["fa"],
+        "CFBundleLocalizations": [
+          "fa"
+        ],
         "CFBundleDevelopmentRegion": "fa"
       }
     },
@@ -29,7 +31,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": ""
+        "projectId": "431b1a8e-232c-48b1-b7c6-2a8ed045695c"
       }
     }
   }
