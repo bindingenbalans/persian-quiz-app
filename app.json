@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Hoe Rotterdams Ben Jij?",
+    "slug": "rotterdam-quiz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f1a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "nl.bindingenbalans.rotterdamquiz",
+      "buildNumber": "19",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "LSApplicationQueriesSchemes": ["whatsapp"]
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f9932319-6bcf-4743-a44b-ebde135ad997"
+      }
+    }
+  }
+}
