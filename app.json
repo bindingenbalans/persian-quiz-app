@@ -1,31 +1,35 @@
 {
   "expo": {
-    "name": "Hoe Rotterdams Ben Jij?",
-    "slug": "rotterdam-quiz",
+    "name": "چقدر ایرانی هستی؟",
+    "slug": "persian-quiz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0f0f1a"
+      "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "nl.bindingenbalans.rotterdamquiz",
-      "buildNumber": "19",
+      "supportsTablet": true,
+      "bundleIdentifier": "nl.bindingenbalans.persianquiz",
+      "buildNumber": "1",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false,
-        "LSApplicationQueriesSchemes": ["whatsapp"]
+        "CFBundleLocalizations": ["fa"],
+        "CFBundleDevelopmentRegion": "fa"
       }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "nl.bindingenbalans.persianquiz"
     },
     "extra": {
       "eas": {
-        "projectId": "f9932319-6bcf-4743-a44b-ebde135ad997"
+        "projectId": ""
       }
     }
   }
