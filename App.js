@@ -433,7 +433,7 @@ const styles = StyleSheet.create({
     marginBottom: 32,
   },
   categoryPreviewItem: {
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
     alignItems: 'center',
     justifyContent: 'flex-end',
     backgroundColor: '#fff',
@@ -629,7 +629,7 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   breakdownItem: {
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
     alignItems: 'center',
     justifyContent: 'flex-end',
     paddingVertical: 12,
@@ -695,7 +695,7 @@ const styles = StyleSheet.create({
 
   // Small Banner
   smallBanner: {
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#9DC88D',
@@ -804,7 +804,7 @@ const styles = StyleSheet.create({
   // Results Banner
   resultsBanner: {
     width: '100%',
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
     alignItems: 'center',
     backgroundColor: '#9DC88D',
     padding: 16,
