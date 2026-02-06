@@ -537,6 +537,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     borderWidth: 2,
     borderColor: '#e5e5e5',
+    alignItems: 'flex-end',
   },
   answerText: {
     fontSize: 17,
