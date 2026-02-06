@@ -541,6 +541,8 @@ const styles = StyleSheet.create({
   },
   answerText: {
     fontSize: 17,
+    alignSelf: 'stretch',
+    width: '100%',
     color: '#333',
     textAlign: 'right',
     writingDirection: 'rtl',
