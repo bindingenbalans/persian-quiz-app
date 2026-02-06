@@ -436,7 +436,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row-reverse',
     alignItems: 'center',
     justifyContent: 'flex-end',
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffcc',
     paddingVertical: 14,
     paddingHorizontal: 18,
     borderRadius: 12,
@@ -531,7 +531,7 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   answerButton: {
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffcc',
     paddingVertical: 16,
     paddingHorizontal: 20,
     borderRadius: 12,
@@ -621,7 +621,7 @@ const styles = StyleSheet.create({
   },
   breakdownContainer: {
     width: '100%',
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffcc',
     borderRadius: 16,
     padding: 16,
     marginBottom: 28,
@@ -786,7 +786,7 @@ const styles = StyleSheet.create({
     writingDirection: 'rtl',
   },
   adButton: {
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffcc',
     borderRadius: 14,
     paddingVertical: 14,
     width: '100%',
