@@ -14,8 +14,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "nl.bindingenbalans.persianquiz",
-      "buildNumber": "4",
-      "infoPlist": {
+      "buildNumber": "5",
+       "supportsRTL": true,
+       "forcesRTL": true,
+       "infoPlist": {
         "CFBundleLocalizations": [
           "fa",
           "fa"
